@@ -1,0 +1,186 @@
+@import url(reset.css);
+@itemWidth: 140px
+@radius: 5px;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+	margin: 5;
+	background-color: #313848;
+    font-family: Impact;
+}
+
+
+#header{
+	background: #63657C;
+	height: 150px;
+	min-width: 1024px;
+	border-top: 1px solid #63657C;
+	border-radius: 20px 20px 1px 1px;
+	display: block;
+	margin-top: 7px;
+	margin-left: 3px;
+	margin-right: 1px;
+}
+#slaider{
+	background-image: url(../images/night_stars.jpg);
+	height: 500px;
+	min-width: 1024px;
+	display: block;
+	margin: 10px auto;
+    padding: 7px 0px 7px;
+}
+.header_button{
+	width: 50px;
+	height: 50px;
+	}
+#header_button_div{
+	float: right;
+}
+#button_1{
+margin: 90px 5px 5px;
+border-radius: 20px 20px 1px 1px;
+float:right; 90px 5px 5px;
+transition: 0.1s linear;
+box-shadow: 1px 1px 1px 1px ;
+}
+
+#button_2{
+margin: 90px 5px 5px;
+border-radius: 20px 20px 1px 1px;
+float:right;   
+transition: 0.1s linear;
+box-shadow: 1px 1px 1px 1px ;
+}
+
+#button_3{
+margin: 90px 5px 5px;
+border-radius: 20px 20px 1px 1px;
+float:right;
+transition: 0.1s linear;
+box-shadow: 1px 1px 1px 1px ;
+	
+}
+
+}
+#button_1:hover{
+    box-shadow: 0px 0px 0px 0px;
+}
+
+#button_2:hover{
+    box-shadow: 0px 0px 0px 0px;
+}
+
+#button_3:hover{
+    box-shadow: 0px 0px 0px 0px;
+}
+
+
+
+#icon{
+	float: left;
+	height: 150px;
+	width: 427;
+	margin:0px 0px 0px 7px ;
+}
+
+a{
+	text-decoration: none;
+}
+
+/*Стили для слайдера*/
+.sl{
+    max-width: 720px;
+    margin: 0px auto;
+}
+.sl_text{
+    position: absolute;
+    bottom: 0;
+    width: 720px;
+    margin: 0px 0px;
+    background-color: rgba(42,42,51,0.5);
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    color: #C7CDD3;
+}
+.sl_zag, .sl_desc{
+ margin: 0;
+ padding: 0;
+}
+
+.sl_slide{
+   position: relative;
+}
+
+/*Стили для слайдера*/
+
+/*Меню*/
+#menu{
+max-width: 9024px;
+margin: auto;
+background: #63657C;
+border-radius: 20px 20px 1px 1px;
+margin-top: 12px;
+padding: 10px 0px 11px 0px;
+
+}
+#knopka1{
+padding: 5px 10px 6px 10px;
+font-size: 20px;
+background: #63657C;
+border: solid 0.2px;
+border-radius: 20px 20px 1px 1px;
+transition: 0.1s linear;
+box-shadow: 1px 1px 1px 0px ;
+margin: 0px 0px 0px 40px;
+}
+.knopka{
+padding: 5px 10px 6px 10px;
+font-size: 20px;
+background: #63657C;
+border: solid 0.2px;
+border-radius: 20px 20px 1px 1px;
+transition: 0.1s linear;
+box-shadow: 1px 1px 1px 0px ;
+}
+/*Меню*/
+
+a:link{
+color: black;
+}
+
+a:visited{
+color: black;
+}
+#knopka1:hover{
+    box-shadow: 0px 0px 0px 0px;
+}
+.knopka:hover{
+    box-shadow: 0px 0px 0px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
